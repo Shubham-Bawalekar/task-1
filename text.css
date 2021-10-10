@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #6cdbeb;
+    font-family: "Poppins", sans-serif;
+    ;
+}
+
+
+/* main {
+    background-color: linear-gradient(to right top, #65dfc9, #6cdbeb);
+} */
+
+nav {
+    background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    transition: text-decoration 3s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-around;
+    color: wheat;
+    padding: 1.2%;
+}
+
+
+/* ==========LOGIN-PAGE============= */
+
+
+/* .login-form {
+    color: tomato;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+
+/* pink #fff0f3
+blue #caf0f8 */
+
+.container {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    flex-direction: column;
+    background-color: whitesmoke;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 15%;
+    border-radius: 5%;
+    transition: box-shadow 0.9s;
+    background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+}
+
+.container:hover {
+    box-shadow: rgb(38, 57, 77) 0px 10px 20px -10px;
+}
+
+.content {
+    padding: 5%;
+}
+
+input,
+textarea,
+select,
+button {
+    width: 250px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    width: 90px;
+    height: 35px;
+    border-radius: 30px;
+    font-size: large;
+    border: none;
+    transition: box-shadow 0.9s;
+}
+
+button:hover {
+    box-shadow: rgb(38, 57, 77) 0px 10px 20px -10px;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid rgb(44, 192, 250);
+    margin-top: 5px;
+    height: 20px;
+    background: none;
+    transition: border-bottom 0.4s;
+}
+
+input:hover {
+    border-bottom: 3px solid rgb(44, 192, 250);
+}
+
+label {
+    font-size: large;
+}
